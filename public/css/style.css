@@ -1,18 +1,18 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    /* background-color: blue; */
-    img{
-        width: 100vw;
-        height: 200px;
-        /* position: absolute;
-        z-index: 2; */
-    }
+    background: url(../img/banniere.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .title{
-        /* position: fixed;
-        z-index: 3; */
         width: 300px;
         height: 80px;
         text-align: center;
@@ -21,14 +21,107 @@ header{
         background-color: beige;
         font-family: Arial, Helvetica, sans-serif;
         opacity: 75%;
+        
+    }
+}
+
+main{
+    display: flex;
+    margin-top: 5px;
+    gap: 1%;
+    padding: 0px 1%;
+    nav{
+        background-color: lightgray;
+        width: 20%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        list-style-type: none;
+        li{
+            height: 50px;
+            a{
+            color: black;
+            font-weight: bold;
+            height: 50px;
+            }
+        } 
+
+    }
+    div{
+        background-color: lightgrey;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        h2{
+            display: block;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+            font-style: italic;
+            padding: 5px;
+        }
+        div{
+
+            padding: 15px 20px;
+            img{
+                width: 200px;
+            }
+            p{
+                margin-top: 20px;
+            }
+        }
+        
     }
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav{
+    ul{
+        li{
+        list-style-type: none;
+            a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            height: 50px;
+            background-color: blue;
+            }
+        }
+    }
+ 
+} */
+
+
 @media screen and (width<=640px){
     body{
         background-color: red;
+    }
+
+}
+@media screen and (width>=640px) and (width<=1024px){
+    body{
+        background-color: blue;
     }
 
 }
