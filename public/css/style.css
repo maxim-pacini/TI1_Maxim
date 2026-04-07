@@ -21,7 +21,6 @@ header{
         background-color: beige;
         font-family: Arial, Helvetica, sans-serif;
         opacity: 75%;
-        
     }
 }
 
@@ -36,7 +35,7 @@ main{
         border: 2px solid black;
         display: flex;
         flex-direction: column;
-        height: 370px;
+        height: 354px;
         text-align: center;
         list-style-type: none;
         border-radius: 15px;
@@ -88,20 +87,30 @@ main{
         
     }
 }
-
-
-
-@media screen and (width<=640px){
-    body{
-        background-color: red;
-    }
-    
-
+main div .menu{
+    display: none;
 }
-@media screen and (width>=640px) and (width<=1024px){
-    body{
-        background-color: blue;
+
+/* hover */
+
+main nav li:nth-child(1){
+    border-radius: 15px 15px 0 0;
+}
+main nav li:last-child{
+    border-radius: 0 0 15px 15px;
+}
+main nav li:hover{
+    background-color: #903331;
+    a{
+        color: white;
     }
+}
+main div #nav2{
+    display: none;
+}
+
+
+@media screen and (width>=640px) and (width<=1024px){
     main{
         flex-direction: column;
         nav{
@@ -113,6 +122,45 @@ main{
             li a{
                 line-height: 60px;
                 text-decoration: none;
+            }
+        }
+        div{
+            div{
+                img{
+                    width: 250px;
+                }
+            }
+        }
+    }
+    
+
+}
+@media screen and (width<=640px){
+    body{
+        background-color: red;
+    }
+    main{
+        nav{
+            display: none;
+        }
+        div{
+            .menu{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                button{
+                    height: 50px;
+                    width: 50px;
+                }
+                p{
+                    color: #903331;
+                }
+            }
+            div{
+                img{
+                    width: 100px;
+                }
             }
         }
     }

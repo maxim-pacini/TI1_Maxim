@@ -15,18 +15,26 @@
         <?php include "inc/entete.php";?>
     </header>
     <main>
-       <?php include "inc/menu.php";?>
+       
        <nav>
-            <li><a href="./" >Accueil</a></li>
-            <li><a href="./?p=geographie">Géographie</a></li>
-            <li><a href="./?p=histoire">Histoire</a></li>
-            <li><a href="./?p=culture">Culture</a></li>
-            <li><a href="./?p=galerie">Galerie</a></li>
-            <li><a href="./?p=contact">Contact</a></li>
-            <li><a href="./?p=liens">Liens</a></li>
+            <?php include "inc/menu.php";?>
        </nav>
        <div>
+            
+            
             <h2>Bienvenue sur notre site consacré a Helsinki</h2>
+            <div class="menu">
+                <button id="btn" onclick="toggle()"></button><p>MENU</p>
+            </div>
+            <div id="nav2">
+                <li><a href="./" >Accueil</a></li>
+                <li><a href="./?p=geographie">Géographie</a></li>
+                <li><a href="./?p=histoire">Histoire</a></li>
+                <li><a href="./?p=culture">Culture</a></li>
+                <li><a href="./?p=galerie">Galerie</a></li>
+                <li><a href="./?p=contact">Contact</a></li>
+                <li><a href="./?p=liens">Liens</a></li>
+            </div>
             <div>
                 <img src="/img/armoiries.png" alt="">
                 <p>
