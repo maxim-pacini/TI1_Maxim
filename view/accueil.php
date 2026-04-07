@@ -25,7 +25,7 @@
             <li><a href="./?p=contact">Contact</a></li>
             <li><a href="./?p=liens">Liens</a></li>
        </nav>
-       <div class="content">
+       <div>
             <h2>Bienvenue sur notre site consacré a Helsinki</h2>
             <div>
                 <img src="/img/armoiries.png" alt="">
@@ -34,6 +34,17 @@
 
                 Ses habitants sont appelés les Helsinkiens ; en finnois helsinkiläiset, en suédois helsingforsare.
                 La ville s'appelait à l'origine Helsingfors ([hɛlsiŋ'fɔʂ], qui reste aujourd'hui encore le nom officiel en suédois. Helsingfors proviendrait du nom d'une paroisse voisine Helsinge (qui aurait donné le nom finnois Helsinki) et de fors, rapides en suédois (lesdits rapides auraient traversé le village d'origine). Une autre version attribue le nom aux immigrants suédois venus de la province de Hälsingland.</p>
+
+                <p>Dans ce site, vous trouverez diverses information concernant:</p>
+                <a href="./?p=geographie">Une brève présentation de Helsinki sur son rôle en Finlande et dans le monde</a>
+                <a href="./?p=histoire">Un rappel historique, de sa fondation à aujourd'hui</a>
+                <a href="./?p=culture">Un tour d'horizon en matière d'art et culture</a>
+                <a href="./?p=galerie">Une galerie de photographies</a>
+                <a href="./?p=contact">Un formulaire pour nous contacter</a>
+                <a href="./?p=liens">Des liens vers des sites partenaires</a>
+
+
+
             </div>
         </div>
             

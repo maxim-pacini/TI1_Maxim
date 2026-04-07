@@ -20,8 +20,8 @@
 
 
 
-
-<!-- <button id="btn" onclick="toggle();">☰</button>
+<!-- 
+<button id="btn" onclick="toggle();">☰</button>
             <ul>
                 <li><a href="./" class="active">Accueil</a></li>
                 <li><a href="./?p=geographie">Géographie</a></li>
