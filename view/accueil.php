@@ -1,20 +1,25 @@
 <?php
-// view/accueil
-
-
+// view/accueil.php
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-
-
-
-    
+    <header>
+        <?php include "inc/entete.php";?>
+    </header>
+    <nav> 
+        <?php include "inc/menu.php";?>
+    </nav>
+    <main>
+       <p>test</p>
+       <p>blabla</p>
+    </main>
 </body>
 </html>
