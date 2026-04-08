@@ -9,7 +9,7 @@
     <title>Contact</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="top">
 
     <header>
         <?php include "inc/entete.php";?>

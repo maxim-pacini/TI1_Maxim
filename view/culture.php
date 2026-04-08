@@ -9,7 +9,7 @@
     <title>Culture</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="top">
 
     <header>
         <?php include "inc/entete.php";?>
@@ -80,7 +80,10 @@
             <p class="culturep">
             De grands concerts et événements ont lieu généralement à l'une des deux grandes patinoires de hockey de la ville: la Hartwall Areena d'Helsinki ou le Helsingin Jäähalli. Sa principale salle est l'Hartwall Areena qui a servi à accueillir de nombreux événements comme le concours Eurovision de la chanson 2007, des concerts et des spectacles à grands budgets et des événements sportifs.</p>
             <br>
-            
+            <section class="up">
+            <a href="#top">Haut de la page</a> 
+            </section>
+            <br>
         </div>
             
     </main>

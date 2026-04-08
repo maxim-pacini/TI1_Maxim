@@ -9,7 +9,7 @@
     <title>Géographie</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="top">
 
     <header>
         <?php include "inc/entete.php";?>
@@ -63,7 +63,12 @@
                 La ville a la plus forte population immigrée de la Finlande en termes tant absolus que relatifs. Il y a plus de 130 nationalités résidentes dans la ville d'Helsinki. Les communautés les plus importantes sont les Russes, les Estoniens, les Suédois, mais aussi un nombre important de Somaliens, de Serbes, de Chinois, d'Indiens, d'Irakiens et d'Allemands.
                 </p>
             </div>
+            <section class="up">
+            <a href="#top">Haut de la page</a> 
+            </section>
+            <br>
         </div>
+        
             
     </main>
     <script src="js/main.js"></script>
