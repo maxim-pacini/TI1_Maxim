@@ -217,7 +217,9 @@ main nav li:hover{
     }
 }
 
-
+p{
+    text-align: justify;
+}
 
 
 
@@ -288,6 +290,13 @@ main nav li:hover{
     }
     .link{
         flex-direction: column;
+        div{
+            width: 100%;
+            a{
+            text-align: center;
+            }
+        }
+        
     }
     
     

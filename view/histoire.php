@@ -9,7 +9,7 @@
     <title>Histoire</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="top">
 
     <header>
         <?php include "inc/entete.php";?>
@@ -59,6 +59,10 @@
                 <p>
                 La place du Sénat (Senaatintori) au centre de la ville témoigne encore de ces liens avec la Russie avec une statue du tsar Alexandre II devant la cathédrale et la ressemblance des bâtiments avec la ville de Saint-Pétersbourg et ainsi la ville fut souvent utilisée pour des tournages de cinéma, à l'époque de la guerre froide, afin de représenter l'ancienne capitale impériale, notamment dans des James Bond, du fait de cette ressemblance.</p>
             </div>
+            <section class="up">
+            <a href="#top">Haut de la page</a> 
+            </section>
+            <br>
         </div>
             
     </main>
