@@ -9,7 +9,7 @@
     <title>Accueil</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="top">
 
     <header>
         <?php include "inc/entete.php";?>
@@ -59,10 +59,15 @@
                 <a href="./?p=contact">Un formulaire pour nous contacter</a>
                 <br>
                 <a href="./?p=liens">Des liens vers des sites partenaires</a>
-
-                <p class="source">Sources : Wikipédia - Ville d'Helsinki</p>
+                <br>
+                <a class="source" href="https://fr.wikipedia.org/wiki/Helsinki">Sources : Wikipédia - Ville d'Helsinki</a>
             </div>
+            <section class="up">
+            <a href="#top">Haut de la page</a> 
+            </section>
+            <br>
         </div>
+        
             
     </main>
     <script src="js/main.js"></script>

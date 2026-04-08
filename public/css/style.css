@@ -122,6 +122,7 @@ main nav li:hover{
 }
 .source{
     text-align: center;
+    color: black;
 }
 .menu{
     display: none;
@@ -206,7 +207,15 @@ main nav li:hover{
     margin-top: 25px;
     border-radius: 25px;
 }
-
+.up{
+    border-radius: 25px;
+    background-color: #903331;
+    padding: 15px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
 
 
 
