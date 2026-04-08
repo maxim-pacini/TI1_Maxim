@@ -15,8 +15,7 @@
         <?php include "inc/entete.php";?>
     </header>
     <main>
-       
-       <nav>
+       <nav class="nav-bar">
             <?php include "inc/menu.php";?>
        </nav>
        <div>
@@ -37,6 +36,7 @@
             <div>
                 <img src="/img/contacts.jpg" alt="">
             </div>
+            <h3>Pour laisser un commentaire ou pour obtenir un renseignement complémentaire, remplissez le formulaire ci-dessous :</h3>
             <div class="formulaire">
                 <div class="champ">
                     <label for="">Nom : </label>
