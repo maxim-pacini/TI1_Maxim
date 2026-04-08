@@ -1,5 +1,5 @@
 function toggle(){
-    let btn = document.getElementById("btn");
+    let nav2 = document.getElementById("nav2");
     
-    btn.classList.toggle("open");
+    nav2.classList.toggle("open");
 }

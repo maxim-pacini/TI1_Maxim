@@ -87,7 +87,7 @@ main{
         
     }
 }
-main div .menu{
+#nav2{
     display: none;
 }
 
@@ -105,12 +105,22 @@ main nav li:hover{
         color: white;
     }
 }
-main div #nav2{
+.menu{
     display: none;
 }
 
 
+
+
+
+
+
+
+
 @media screen and (width>=640px) and (width<=1024px){
+    #nav2{
+        display: none;
+    }
     main{
         flex-direction: column;
         nav{
@@ -136,8 +146,27 @@ main div #nav2{
 
 }
 @media screen and (width<=640px){
-    body{
-        background-color: red;
+    #nav2{
+        display: none;
+    }
+#nav2.open{
+    display: flex;
+    flex-direction: column;
+
+
+    }
+#nav2 a{
+        height: 50px;
+        line-height: 50px;
+    }
+#nav2 a:hover{
+        background-color: #903331;
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+    .menu{
+        display: block;
     }
     main{
         nav{
@@ -148,13 +177,17 @@ main div #nav2{
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                flex-wrap: nowrap;
                 width: 100%;
                 button{
-                    height: 50px;
-                    width: 50px;
+                    height: 35px;
+                    width: 35px;
+                    padding: 5px;
                 }
                 p{
                     color: #903331;
+                    font-weight: bold;
+                    text-align: center;
                 }
             }
             div{
@@ -164,6 +197,28 @@ main div #nav2{
             }
         }
     }
-    
+}
 
+
+
+
+
+
+
+
+
+.champ{
+    background-color: red;
+    border: 1px solid black;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    padding: 2px;
+    label{
+        width: 20%;
+        text-align: start;
+    }
+    input{
+        width: 75%;
+    }
 }
