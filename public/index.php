@@ -12,5 +12,5 @@ elseif(in_array($_GET['p'], PAGES)){
     include CHEMIN."/view/".$_GET['p'].".php";
 }
 else{
-    include CHEMIN."/view/erreurr404.php";
+    include CHEMIN."/view/erreur404.php";
 }

@@ -119,6 +119,9 @@ main nav li:hover{
         color: white;
     }
 }
+.source{
+    text-align: center;
+}
 .menu{
     display: none;
 }
@@ -140,6 +143,79 @@ main nav li:hover{
         width: 75%;
     }
 }
+.link{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    div{
+        width: 30%;
+    }
+}
+.culture{
+    text-align: start;
+    width: 85%;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.culturep{
+    width: 90%;
+}
+.wrong {
+    text-align: center;
+    width: 100%;
+}
+.titre-liens{
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+.titre-contact{
+    padding: 0 20px;
+    text-align: center;
+}
+
+.galerie{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.galerie figure{
+    border: 1px solid black;
+
+    
+    overflow: hidden;
+    img{
+        width: 100%;
+        /* object-fit: cover; */
+        /* max-width:480px; */
+    }
+    figcaption{
+        height: 5%;
+        text-align: center;
+        background-color: beige;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -184,15 +260,19 @@ main nav li:hover{
         flex-wrap: wrap;
         width: 100%;
         label{
-            width: 80%;
+            width: 100%;
             text-align: start;
             font-weight: bold;
         }
         input{
-            width: 80%;
+            width: 100%;
         }
-        
-
+        textarea{
+            width: 100%;
+        }
+    }
+    .link{
+        flex-direction: column;
     }
     
     
@@ -202,6 +282,9 @@ main nav li:hover{
 
     #nav2.open{
     display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
     flex-direction: column;
     }
 

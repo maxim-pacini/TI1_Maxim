@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Erreur 404</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,12 +15,13 @@
         <?php include "inc/entete.php";?>
     </header>
     <main>
+       
        <nav class="nav-bar">
             <?php include "inc/menu.php";?>
        </nav>
        <div>
-            <h2>Pour nous contacter</h2>
-            <div class="menu">
+            <h2>Oups! Quelque chose ne va pas.</h2>
+           <div class="menu">
                 <button id="btn" onclick="toggle()">
                     <span></span>
                     <span></span>
@@ -39,35 +40,10 @@
                 <a href="./?p=liens">Liens</a>
             </div>
             <div>
-                <img src="/img/contacts.jpg" alt="">
-            </div>
-            <h3 class="titre-contact">Pour laisser un commentaire ou pour obtenir un renseignement complémentaire, remplissez le formulaire ci-dessous :</h3>
-            <div class="formulaire">
-                <div class="champ">
-                    <label for="">Nom : </label>
-                    <input type="text">
-                </div>
+                <img src="/img/404.jpg" alt="">
+                <p class="wrong">Cette page n'existe pas, vous pouvez revenir a l'accueil <a href="./">ici</a></p>
                 
-                <div class="champ">
-                    <label for="">Prenom : </label>
-                    <input type="text">
-                </div>
-
-                <div class="champ">
-                    <label for="">Ville : </label>
-                    <input type="text">
-                </div>
-
-                <div class="champ">
-                    <label for="">E-Mail : </label>
-                    <input type="text">
-                </div>
-                <div class="champ">
-                    <label for="" >Votre message : </label>
-                    <textarea name="a" id=""></textarea>
-                </div>
             </div>
-            
         </div>
             
     </main>

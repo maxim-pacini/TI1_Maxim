@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <title>Histoire</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -20,9 +20,14 @@
             <?php include "inc/menu.php";?>
        </nav>
        <div>
-            <h2>Bienvenue sur notre site consacré a Helsinki</h2>
+            <h2>Histoire</h2>
             <div class="menu">
-                <button id="btn" onclick="toggle()"></button>
+                <button id="btn" onclick="toggle()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    
+                </button>
                 <p>MENU</p>
             </div>
             <div id="nav2">

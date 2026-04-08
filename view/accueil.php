@@ -60,8 +60,7 @@
                 <br>
                 <a href="./?p=liens">Des liens vers des sites partenaires</a>
 
-
-
+                <p class="source">Sources : Wikipédia - Ville d'Helsinki</p>
             </div>
         </div>
             
