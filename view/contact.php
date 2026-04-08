@@ -66,6 +66,7 @@
                     <label for="" >Votre message : </label>
                     <textarea name="a" id=""></textarea>
                 </div>
+                <button class="send">Envoyer votre message</button>
             </div>
             
         </div>

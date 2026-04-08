@@ -201,6 +201,10 @@ main nav li:hover{
         background-color: white;
     }
 }
+.send{
+    padding: 15px;
+    margin-top: 25px;
+}
 
 
 
