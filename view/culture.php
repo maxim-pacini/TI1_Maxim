@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Culture</title>
+    <title><?= $_GET['p']?></title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="top">
@@ -39,7 +39,7 @@
                 <a href="./?p=liens">Liens</a>
             </div>
             <div>
-                <img src="/img/culture.png" alt="">
+                <img src="img/culture.png" alt="">
             </div>
             <h3 class="culture">Architecture</h3>
             

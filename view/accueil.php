@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <title><?= $_GET['p'] ?? 'Accueil' ?></title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="top">
@@ -40,7 +40,7 @@
                 <a href="./?p=liens">Liens</a>
             </div>
             <div>
-                <img src="/img/armoiries.png" alt="">
+                <img src="img/armoiries.png" alt="">
                 <p>
                 Helsinki  est la capitale et la plus grande ville de la Finlande avec 642 045 habitants dans la commune et 1 456 619 dans le Grand Helsinki. Helsinki est la capitale la plus septentrionale du monde après Reykjavik, capitale de l'Islande. La ville a la plus forte population immigrée de tout le pays. Il y a plus de 130 nationalités résidant dans la ville d'Helsinki. Elle s'étale sur une presqu'île entourée d'un grand nombre d'îles et est fortement caractérisée par la présence de l'eau. Helsinki est un port marchand ouvert sur le golfe de Finlande.</p>
                 <p>

@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Histoire</title>
+    <title><?= $_GET['p']?></title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="top">
@@ -40,7 +40,7 @@
                 <a href="./?p=liens">Liens</a>
             </div>
             <div>
-                <img src="/img/histoire.jpg" alt="">
+                <img src="img/histoire.jpg" alt="">
                 <p>
                 Helsinki fut fondé sous le nom d'Helsingfors, en 1550, par Gustave Vasa, roi de Suède dans le but de concurrencer Reval (actuellement Tallinn, la capitale d’Estonie), alors ville hanséatique florissante. Le premier village d'Helsinki se situait alors dans le quartier encore appelé Vanhakaupunki (qui signifie en français : Vieille ville), une plaque commémorative indiquant l'emplacement de la première église et du premier cimetière. L'urbanisation récente se traduit en particulier par l'importance des noms de lieux et de quartiers liés à des particularités naturelles et géographiques, comme Koskela (les rapides), Katajanokka (Presqu'île du Genévrier), etc.</p>
                 <p>

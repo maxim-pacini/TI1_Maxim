@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>liens</title>
+    <title><?= $_GET['p']?></title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -40,7 +40,7 @@
                 <a href="./?p=liens">Liens</a>
             </div>
             <div>
-                <img src="/img/liens.jpg" alt="">
+                <img src="img/liens.jpg" alt="">
                 <div class="link">
                     <p class="titre-liens">D'autres capitales se sont associées à notre site.</p>
                     <div>
@@ -66,9 +66,7 @@
                     <a href="#">Oslo</a>
                     <a href="#">Budapest</a>
                     <a href="#">Stockholm</a>
-
                     </div>
-                    
                 </div>
                 
             </div>

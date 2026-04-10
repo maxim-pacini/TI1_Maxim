@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Géographie</title>
+    <title><?= $_GET['p']?></title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="top">
@@ -40,7 +40,7 @@
                 <a href="./?p=liens">Liens</a>
             </div>
             <div>
-                <img src="/img/geographie.png" alt="">
+                <img src="img/geographie.png" alt="">
                 <p>
                 Construite sur une presqu'île entourée de quelque 330 îles, la ville est fortement caractérisée par la présence de l'eau. La remontée des terres due au phénomène d'isostasie fait que certains lieux autrefois occupés par la mer sont aujourd'hui urbanisés, comme l'ancienne baie du quartier de Kluuvi.
                 </p>
